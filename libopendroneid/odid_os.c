@@ -10,10 +10,10 @@ Open Drone ID OS dependent functions.
 
 #include "odid_os.h"
 
-#if __ZEPHYR__
+#if 0 && __ZEPHYR__
 
 /*
- *
+ *  Only needed when using the minimal Zephyr library (which is the default).
  */
 
 float roundf(float f) {
